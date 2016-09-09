@@ -9,7 +9,7 @@ public class FormatacaoHorizontal {
 		double determinante = b*b - 4*a*c;
 		boolean espacamentoPorOrdemDosOperadores = "conta".equals("bem legível");
 
-		String linhaBemGrande = "cuidado para não estiver horizontalmente a linha";
+		String linhaBemGrande = "cuidado para não esticar horizontalmente a linha";
 		String resultado;
 		if (linhaBemGrande.length() <= 100){
 			resultado = "aceitavel";
