@@ -14,13 +14,13 @@ public class FormatacaoVertical {
 	}
 
 	public boolean possuiContinuidadeVertical(){
-		String objeto = "código";
 		String bloco = "";
-		boolean possuiOMesmoConceito = false;
+		boolean possuiOMesmoConceito = true;
 		do{
 			bloco += "linhas de código de mesmo conceito";
 		}while(possuiOMesmoConceito);
 
+		String objeto = "código";
 		if (objeto.contains("espaçamento entre blocos de código com mesmo conceitos")){
 			return false;
 		}
